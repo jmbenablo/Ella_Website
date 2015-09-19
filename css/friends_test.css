@@ -1,0 +1,56 @@
+body
+{
+	padding-bottom: 50px;
+}
+
+.img-div
+{
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	-webkit-border: 2px solid white;
+	-moz-border: 2px solid white;
+	border: 2px solid white;
+	padding: 25px;
+	margin-bottom: 15px;
+
+}
+
+.img-div:nth-of-type(even)
+{
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	-webkit-border: 2px dashed white;
+	-moz-border: 2px dashed white;
+	border: 2px dashed white;
+	padding: 25px;
+	margin-bottom: 15px;
+
+}
+
+h1, p
+{
+	color: white;
+	word-spacing: 2;
+
+}
+
+h1
+{
+	font-size: 45px;
+	letter-spacing: 3;
+}
+
+#header
+{
+	margin-bottom: 50px;
+}
+
+#header > h1, h3
+{
+	color: white;
+	text-align: center;
+	letter-spacing: 20;
+	text-transform: uppercase;
+}
